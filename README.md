@@ -152,3 +152,5 @@ Open standards that let agents connect to tools, to each other and to payments. 
 Last verified: 29 October 2026.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Pull requests that skip the checklist are closed.
+
+Maintained by [Iurii Rogulia](https://iurii.rogulia.fi).
