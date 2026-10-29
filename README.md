@@ -67,7 +67,7 @@ Persistent state and long-term memory for agents.
 
 - [Basic Memory](https://github.com/basicmachines-co/basic-memory) - Stores agent memory as Markdown files with a local SQLite index and MCP access. Open source (AGPL-3.0) with an optional paid cloud. Syncing across devices is manual unless you use the cloud.
 - [Cognee](https://www.cognee.ai) - Memory engine for agents, open source (Apache-2.0) and also hosted. Free hosted tier. Data-source integrations and code indexing are not in Free.
-- [Hindsight](https://hindsight.vectorize.io) - Long-term memory service with retain, recall and reflect operations on PostgreSQL with pgvector. Open source (MIT) with a hosted cloud. Hosted rates are not published, and the benchmark numbers are the vendor's own.
+- [Hindsight](https://hindsight.vectorize.io) - Long-term memory service with retain, recall and reflect operations on PostgreSQL with pgvector. Open source (MIT) with a hosted cloud. Hosted rates are not published, and the benchmark numbers are the vendor’s own.
 - [Mem0](https://mem0.ai) - Memory layer with an API and SDK, plus an open-source edition (Apache-2.0). Free plan. Graph memory and user profiles are only on the custom-priced plan.
 - [Memori](https://github.com/MemoriLabs/Memori) - Memory layer that records conversations and tool calls as structured state, with Python and TypeScript SDKs and an MCP server. Developer use is free and pricing is not published. It needs an entity ID and a process ID to create memories, and GitHub does not recognise its license.
 - [Memvid](https://github.com/memvid/memvid) - Single-file memory format holding data, embeddings and search index, as a Rust crate with Node and Python SDKs. Open source (Apache-2.0), no hosted offering. An index built with one embedding model fails with another.
@@ -116,7 +116,7 @@ Credentials, OAuth delegation and agent identity.
 
 - [Aembit](https://aembit.io) - Gives each AI agent its own identity and issues short-lived scoped credentials after a policy check, in front of MCP servers and APIs. Free Starter plan for 3 agents. Free log retention is 24 hours.
 - [Arcade](https://www.arcade.dev) - Runtime that handles per-user OAuth and runs tools for agents. Free plan. Free support is community-only.
-- [Auth0 Token Vault](https://auth0.com/ai) - Stores users' third-party access and refresh tokens so an agent can exchange them for provider tokens, with CIBA for user approval. Free plan. Token Vault is limited to 2 connections on the free plan, and unlimited needs an add-on.
+- [Auth0 Token Vault](https://auth0.com/ai) - Stores users’ third-party access and refresh tokens so an agent can exchange them for provider tokens, with CIBA for user approval. Free plan. Token Vault is limited to 2 connections on the free plan, and unlimited needs an add-on.
 - [Composio](https://composio.dev) - Managed OAuth and tool execution for agents across 1,500+ toolkits, with MCP support. Free Hobby plan, hard-capped with no overage. Composio-managed OAuth apps count for a smaller share of the free calls.
 - [Descope](https://www.descope.com) - Authentication service with Outbound Apps for third-party tokens, MCP auth and agent token exchange. Free plan with no overages. Audit retention is one week.
 - [Nango](https://www.nango.dev) - Hosted OAuth and API-auth layer that stores connection credentials and syncs data for agent tools. Free plan, hard-capped at 10 connections. Self-hosting is an Enterprise feature.
@@ -127,8 +127,8 @@ Credentials, OAuth delegation and agent identity.
 Storage and retrieval layers designed for agent workloads.
 
 - [Chroma](https://www.trychroma.com) - Open-source (Apache-2.0) vector, full-text and metadata search database, with a hosted cloud. Starter plan with free credits. Service pauses when a usage limit is hit.
-- [LanceDB](https://lancedb.com) - Open-source (Apache-2.0) embedded and cloud vector database. Free-tier limits are not published. Agent use rests on the vendor's blog posts, not on dedicated agent docs.
-- [Neon](https://neon.com) - Serverless PostgreSQL; an agent can create a temporary project with the `neon claim create` CLI and no signup. The project expires after 72 hours unless a human claims it, with 100 MB storage. Only PostgreSQL, the Data API and Managed Better Auth work in claimable mode.
+- [LanceDB](https://lancedb.com) - Open-source (Apache-2.0) embedded and cloud vector database. Free-tier limits are not published. Agent use rests on the vendor’s blog posts, not on dedicated agent docs.
+- [Neon](https://neon.com) - Serverless PostgreSQL; an agent can create a temporary project with the `neon claim create` CLI and no signup. The project expires after 72 hours unless a human claims it, with 100 MB storage. Only PostgreSQL, the Data API and Managed Better Auth work in claimable mode.
 - [TiDB Cloud Starter](https://www.pingcap.com/tidb-cloud-starter/) - Serverless distributed SQL with vector search, positioned for agents with per-agent isolation. Free tier per organization. Overage rates are not on the page, and PostgreSQL compatibility is in Public Preview.
 - [Turso](https://turso.tech) - SQLite-compatible databases pitched as one database per agent, plus the AgentFS SDK for agent files and state. Free plan. Agent-specific features are not described on the pricing page.
 - [Upstash Redis for agents](https://upstash.com/blog/redis-database-for-agents) - One HTTP POST returns a Redis endpoint and token with no signup. Unclaimed databases are deleted after 3 days. Until claimed, anyone with the database ID can view or edit its data.

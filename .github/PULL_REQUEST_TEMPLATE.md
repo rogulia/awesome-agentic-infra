@@ -12,6 +12,7 @@ Category:
 - [ ] It is infrastructure, not an agent, framework or LLM wrapper
 - [ ] Entry follows the format: description, pricing model, caveat
 - [ ] Alphabetical order within the category
+- [ ] `pnpm typography` passes (run `pnpm typography:fix`)
 - [ ] No referral or affiliate links
 
 ## How I know this tool

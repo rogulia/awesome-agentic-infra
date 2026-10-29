@@ -1,0 +1,12 @@
+{
+  "name": "awesome-agentic-infra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typography": "node scripts/typography.mjs",
+    "typography:fix": "node scripts/typography.mjs --fix"
+  },
+  "devDependencies": {
+    "polytypo": "1.17.3"
+  }
+}

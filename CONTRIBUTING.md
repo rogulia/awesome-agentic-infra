@@ -21,7 +21,7 @@ Protocols are specifications, so the free-tier criterion does not apply. A proto
 ```
 
 - One line, one sentence per part.
-- State facts you checked. If a price or limit comes from the vendor's page, it must match the page today.
+- State facts you checked. If a price or limit comes from the vendor’s page, it must match the page today.
 - The caveat is required. An entry without a limitation reads as an advertisement.
 - No marketing language, no superlatives, no emoji.
 - Alphabetical order within a category.
@@ -44,5 +44,6 @@ Protocols are specifications, so the free-tier criterion does not apply. A proto
 
 - Title: `Add <Tool>`. One tool per pull request.
 - Add the entry at its alphabetical position in the category.
+- Run `pnpm install && pnpm typography:fix` before pushing. The `typography` check fails the pull request if quotes, dashes, ellipses or no-break spaces are not normalized by [polytypo](https://polytypo.dev) (`en-GB`).
 
 Fill in the checklist in the template. Maintainers may ask for evidence of use and close pull requests that do not meet the criteria without further discussion.
