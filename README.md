@@ -6,7 +6,7 @@ Each entry says what the tool does, how you get access, where it falls short, an
 
 A tool belongs here when it meets all of these:
 
-- **Agent-native.** Resources are created through an API or SDK. No interactive login, CAPTCHA or manual step is required to start.
+- **Agent-native.** Resources are created through an API or SDK. After a one-time human step at the start (for example signing up and copying an API key), no interactive login, CAPTCHA or manual step is needed to create or use a resource. Say which human step in the `Setup:` sentence.
 - **Alive.** Public product or repository with activity in the last 12 months.
 - **Accessible.** Public documentation and a free tier, trial or open-source release.
 - **Infrastructure.** Not an agent, not an orchestration framework, not a thin wrapper over an LLM API.
@@ -152,6 +152,19 @@ Open standards that let agents connect to tools, to each other and to payments. 
 
 Last verified: 29 October 2026.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) first. Pull requests that skip the checklist are closed.
+To add a tool:
+
+1. Read [CONTRIBUTING.md](CONTRIBUTING.md): criteria, entry format, what is not accepted.
+2. Add one line at its alphabetical position in the right category:
+
+   ```
+   - [Name](https://example.com) - What it does. Pricing model. Limitation or caveat. Setup: no card, human once (verify email code).
+   ```
+
+3. Run `pnpm install && pnpm typography:fix`, then open a pull request. The template has the checklist; the CI checks format, order, typography and links.
+
+No time for a pull request? [Suggest a tool](https://github.com/rogulia/awesome-agentic-infra/issues/new?template=suggest-a-tool.md) with an issue instead.
+
+Pull requests that skip the checklist are closed.
 
 Maintained by [Iurii Rogulia](https://iurii.rogulia.fi).

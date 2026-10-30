@@ -4,7 +4,7 @@ The list stays useful only if the filter is strict. Read this before opening a p
 
 ## A tool is accepted when
 
-1. **It is agent-native.** Resources are created through an API or SDK, with no interactive login, CAPTCHA or manual step to start.
+1. **It is agent-native.** Resources are created through an API or SDK. A one-time human step at the start (signing up, copying an API key) is fine and goes into the `Setup:` sentence. After it, no interactive login, CAPTCHA or manual step is needed to create or use a resource.
 2. **It is alive.** Public repository with activity in the last 12 months. For a commercial service without a public repository, a current pricing page and documentation.
 3. **It is accessible.** Public documentation, plus a free tier, trial or open-source release.
 4. **It is infrastructure.** Not an agent, not an orchestration framework, not a thin wrapper over an LLM API.
@@ -48,5 +48,7 @@ Protocols are specifications, so the free-tier criterion does not apply. A proto
 - Title: `Add <Tool>`. One tool per pull request.
 - Add the entry at its alphabetical position in the category.
 - Run `pnpm install && pnpm typography:fix` before pushing. The `typography` check fails the pull request if quotes, dashes, ellipses or no-break spaces are not normalized by [polytypo](https://polytypo.dev) (`en-GB`).
+
+No time for a pull request? Open a [suggestion issue](https://github.com/rogulia/awesome-agentic-infra/issues/new?template=suggest-a-tool.md) instead.
 
 Fill in the checklist in the template. Maintainers may ask for evidence of use and close pull requests that do not meet the criteria without further discussion.
