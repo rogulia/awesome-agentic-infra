@@ -4,7 +4,28 @@ Infrastructure that autonomous AI agents use to act in the world: an email addre
 
 Each entry says what the tool does, how you get access, where it falls short, and what setup costs an agent: whether a card is needed and whether a person has to do something once or every time. Only tools that someone has used or read in depth are listed.
 
-**To add a tool:**
+A tool belongs here when it meets all of these:
+
+- **Agent-native.** Resources are created through an API or SDK. After a one-time human step at the start (for example signing up and copying an API key), no interactive login, CAPTCHA or manual step is needed to create or use a resource. Say which human step in the `Setup:` sentence.
+- **Alive.** Public product or repository with activity in the last 12 months.
+- **Accessible.** Public documentation and a free tier, trial or open-source release.
+- **Infrastructure.** Not an agent, not an orchestration framework, not a thin wrapper over an LLM API.
+
+## Contents
+
+- [To add a tool](#to-add-a-tool)
+- [Identity and Communication](#identity-and-communication)
+- [Web Access](#web-access)
+- [Payments](#payments)
+- [Memory](#memory)
+- [Execution and Sandboxes](#execution-and-sandboxes)
+- [Observability and Evals](#observability-and-evals)
+- [Security and Guardrails](#security-and-guardrails)
+- [Authentication and Secrets](#authentication-and-secrets)
+- [Data and Retrieval](#data-and-retrieval)
+- [Protocols](#protocols)
+
+## To add a tool
 
 1. Read [CONTRIBUTING.md](CONTRIBUTING.md): criteria, entry format, what is not accepted.
 2. Add one line at its alphabetical position in the right category:
@@ -18,26 +39,6 @@ Each entry says what the tool does, how you get access, where it falls short, an
 No time for a pull request? [Suggest a tool](https://github.com/rogulia/awesome-agentic-infra/issues/new?template=suggest-a-tool.md) with an issue instead.
 
 Pull requests that skip the checklist are closed.
-
-A tool belongs here when it meets all of these:
-
-- **Agent-native.** Resources are created through an API or SDK. After a one-time human step at the start (for example signing up and copying an API key), no interactive login, CAPTCHA or manual step is needed to create or use a resource. Say which human step in the `Setup:` sentence.
-- **Alive.** Public product or repository with activity in the last 12 months.
-- **Accessible.** Public documentation and a free tier, trial or open-source release.
-- **Infrastructure.** Not an agent, not an orchestration framework, not a thin wrapper over an LLM API.
-
-## Contents
-
-- [Identity and Communication](#identity-and-communication)
-- [Web Access](#web-access)
-- [Payments](#payments)
-- [Memory](#memory)
-- [Execution and Sandboxes](#execution-and-sandboxes)
-- [Observability and Evals](#observability-and-evals)
-- [Security and Guardrails](#security-and-guardrails)
-- [Authentication and Secrets](#authentication-and-secrets)
-- [Data and Retrieval](#data-and-retrieval)
-- [Protocols](#protocols)
 
 ## Identity and Communication
 
@@ -167,6 +168,6 @@ Open standards that let agents connect to tools, to each other and to payments. 
 
 Last verified: 29 October 2026.
 
-The steps for adding a tool are at the top of this page.
+The steps for adding a tool are in the section above.
 
 Maintained by [Iurii Rogulia](https://iurii.rogulia.fi).
