@@ -167,6 +167,6 @@ Open standards that let agents connect to tools, to each other and to payments. 
 
 Last verified: 29 October 2026.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding a tool. Steps are at the top of this page.
+The steps for adding a tool are at the top of this page.
 
 Maintained by [Iurii Rogulia](https://iurii.rogulia.fi).
