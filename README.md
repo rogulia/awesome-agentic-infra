@@ -4,6 +4,21 @@ Infrastructure that autonomous AI agents use to act in the world: an email addre
 
 Each entry says what the tool does, how you get access, where it falls short, and what setup costs an agent: whether a card is needed and whether a person has to do something once or every time. Only tools that someone has used or read in depth are listed.
 
+**To add a tool:**
+
+1. Read [CONTRIBUTING.md](CONTRIBUTING.md): criteria, entry format, what is not accepted.
+2. Add one line at its alphabetical position in the right category:
+
+   ```
+   - [Name](https://example.com) - What it does. Pricing model. Limitation or caveat. Setup: no card, human once (verify email code).
+   ```
+
+3. Run `pnpm install && pnpm typography:fix`, then open a pull request. The template has the checklist; the CI checks format, order, typography and links.
+
+No time for a pull request? [Suggest a tool](https://github.com/rogulia/awesome-agentic-infra/issues/new?template=suggest-a-tool.md) with an issue instead.
+
+Pull requests that skip the checklist are closed.
+
 A tool belongs here when it meets all of these:
 
 - **Agent-native.** Resources are created through an API or SDK. After a one-time human step at the start (for example signing up and copying an API key), no interactive login, CAPTCHA or manual step is needed to create or use a resource. Say which human step in the `Setup:` sentence.
@@ -152,19 +167,6 @@ Open standards that let agents connect to tools, to each other and to payments. 
 
 Last verified: 29 October 2026.
 
-To add a tool:
-
-1. Read [CONTRIBUTING.md](CONTRIBUTING.md): criteria, entry format, what is not accepted.
-2. Add one line at its alphabetical position in the right category:
-
-   ```
-   - [Name](https://example.com) - What it does. Pricing model. Limitation or caveat. Setup: no card, human once (verify email code).
-   ```
-
-3. Run `pnpm install && pnpm typography:fix`, then open a pull request. The template has the checklist; the CI checks format, order, typography and links.
-
-No time for a pull request? [Suggest a tool](https://github.com/rogulia/awesome-agentic-infra/issues/new?template=suggest-a-tool.md) with an issue instead.
-
-Pull requests that skip the checklist are closed.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding a tool. Steps are at the top of this page.
 
 Maintained by [Iurii Rogulia](https://iurii.rogulia.fi).
