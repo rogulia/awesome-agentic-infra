@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
-"""Checks README entries: format, trailing period, alphabetical order, duplicate links."""
+"""Checks README entries: format, trailing period, Setup sentence, alphabetical order, duplicate links."""
 import re
 import sys
 
+SETUP = re.compile(
+    r" Setup: (card required|no card|card not stated), "
+    r"(no human step|human once \(.+?\)|human every time \(.+?\)|human step not stated)\.$"
+)
 ENTRY = re.compile(r"^- \[([^\]]+)\]\((https://[^)\s]+)\) - (.+)$")
 text = open("README.md", encoding="utf-8").read()
 errors = []
@@ -26,6 +30,8 @@ for section in re.split(r"^## ", text, flags=re.M)[1:]:
             errors.append(f"{title}: {name}: description must start with an uppercase letter")
         if not desc.endswith("."):
             errors.append(f"{title}: {name}: description must end with a period")
+        if title.strip() != "Protocols" and not SETUP.search(desc):
+            errors.append(f"{title}: {name}: missing or malformed 'Setup:' sentence at the end")
         if url.rstrip("/") in seen:
             errors.append(f"{title}: {name}: duplicate link, also in {seen[url.rstrip('/')]}")
         seen[url.rstrip("/")] = name

@@ -10,7 +10,7 @@ Category:
 - [ ] Public product or repository with activity in the last 12 months
 - [ ] Public documentation and a free tier, trial or open-source release
 - [ ] It is infrastructure, not an agent, framework or LLM wrapper
-- [ ] Entry follows the format: description, pricing model, caveat
+- [ ] Entry follows the format: description, pricing model, caveat, `Setup:` sentence (card, human step)
 - [ ] Alphabetical order within the category
 - [ ] `pnpm typography` passes (run `pnpm typography:fix`)
 - [ ] No referral or affiliate links

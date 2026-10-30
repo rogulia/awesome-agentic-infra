@@ -17,12 +17,15 @@ Protocols are specifications, so the free-tier criterion does not apply. A proto
 ## Entry format
 
 ```
-- [Name](https://example.com) - What it does. Pricing model. Limitation or caveat.
+- [Name](https://example.com) - What it does. Pricing model. Limitation or caveat. Setup: no card, human once (verify email code).
 ```
 
 - One line, one sentence per part.
 - State facts you checked. If a price or limit comes from the vendor’s page, it must match the page today.
 - The caveat is required. An entry without a limitation reads as an advertisement.
+- The final `Setup:` sentence is required for every entry outside Protocols. It answers two questions for the free tier, trial or open-source path an agent would use first:
+  - Card: `card required`, `no card` or `card not stated`. Use `card not stated` when the vendor’s pages do not say. Do not guess.
+  - Human: `no human step` (the agent can create the account or resource through an API or CLI), `human once (<step>)` (a person does something before the first call, for example registers a phone number), `human every time (<step>)` (a person is needed again per session or use) or `human step not stated`. Signing up in a dashboard and copying an API key counts as `human once (sign up in dashboard)`.
 - No marketing language, no superlatives, no emoji.
 - Alphabetical order within a category.
 
