@@ -33,6 +33,7 @@ Email, phone and meeting presence for agents that need their own address.
 - [AgentPhone](https://agentphone.ai/) - Phone number for an agent with voice and SMS delivered to one webhook. No free tier, only a one-time credit. Numbers are US and Canada only. Setup: card not stated, human step not stated.
 - [Inkbox](https://www.inkbox.ai/) - Agent identity with email inbox, iMessage, optional phone number and a public URL; the agent can sign itself up by API. Free plan, with phone and SMS on paid plans. Until a human verifies by email code, the agent can email only its owner. Setup: card not stated, human once (verify email 6-digit code).
 - [MailSlurp](https://www.mailslurp.com/) - Email API that creates inboxes on demand for testing and automation. Free plan. A testing tool, not agent-specific, and the free plan has no custom domains. Setup: card not stated, human step not stated.
+- [Resend Inboxes](https://resend.com/products/inboxes) - Inboxes that send and receive on your domain, managed through an API, CLI or MCP server, with a built-in triage agent. Free tier with 3 inboxes, then $1 per extra inbox. Announced 22 October 2026; the built-in agent only drafts replies and never sends them. Setup: no card, human once (create a Resend account and API key).
 
 ## Web Access
 
