@@ -57,6 +57,7 @@ Browsers, search and scraping built for agents.
 
 - [Browserbase](https://www.browserbase.com) - Cloud headless browsers via API, plus Search and Fetch endpoints. Free plan. The free plan has no captcha solving or stealth mode. Setup: card not stated, human once (sign up in dashboard).
 - [Browserless](https://www.browserless.io) - Hosted headless Chrome, WebKit and Firefox over WebSocket and REST. Free plan. Billed in units, and a captcha solve costs 10 units. Setup: card not stated, human once (sign up in dashboard).
+- [Cloudbrowser](https://cloudbrowser.tv) - Persistent, isolated Chrome browser sessions for AI agents, created through a REST API. Free plan: 1 browser-hour per UTC month, 1 running browser, and automatic pause at the limit. Setup: card not stated, human once (sign up and verify an account email).
 - [Cloudflare Browser Rendering](https://developers.cloudflare.com/browser-rendering/) - Headless browser sessions and REST endpoints running on Cloudflare Workers. Free plan with a daily browser-time cap. Extra concurrent browsers are billed separately. Setup: card not stated, human once (create account and API token).
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) - Open-source crawler (Apache-2.0) that turns pages into Markdown or structured JSON, with a hosted cloud. Free to self-host. The cloud SERP API is in beta. Setup: no card, no human step.
 - [Exa](https://exa.ai) - Search API with content retrieval for AI applications. Free monthly credits. Rate limits are not published. Setup: no card, human once (sign up in dashboard).
