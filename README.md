@@ -82,6 +82,7 @@ Wallets and payment rails that an agent can operate within limits.
 
 Persistent state and long-term memory for agents.
 
+- [AtticDB](https://github.com/Clawdlinux/atticdb) - Local memory server for coding agents that keeps turns and facts in an append-only log on your own disk, with an MCP server, an HTTP API and one command that wires up Claude Code, Codex and Copilot. Open source (MIT or Apache-2.0), no hosted offering. Search matches words, not meaning, and there is no sync between machines. Setup: no card, no human step.
 - [Basic Memory](https://github.com/basicmachines-co/basic-memory) - Stores agent memory as Markdown files with a local SQLite index and MCP access. Open source (AGPL-3.0) with an optional paid cloud. Syncing across devices is manual unless you use the cloud. Setup: no card, no human step.
 - [Cognee](https://www.cognee.ai) - Memory engine for agents, open source (Apache-2.0) and also hosted. Free hosted tier. Data-source integrations and code indexing are not in Free. Setup: no card, human once (sign up in platform dashboard).
 - [Hindsight](https://hindsight.vectorize.io) - Long-term memory service with retain, recall and reflect operations on PostgreSQL with pgvector. Open source (MIT) with a hosted cloud. Hosted rates are not published, and the benchmark numbers are the vendor’s own. Setup: no card, no human step.
