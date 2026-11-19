@@ -71,6 +71,7 @@ Browsers, search and scraping built for agents.
 ## Payments
 
 Wallets and payment rails that an agent can operate within limits.
+- [AutoTasker Hub](https://autotasker.highkingflower.com) - Streamable HTTP MCP server exposing 84 tools for pay-per-call China social trending data over x402 on Base. Free discovery and sample tier; paid data at $0.05-$0.50 USDC per call. Limitation: data covers Chinese platforms only. Setup: no card, no human step.
 
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Open-source toolkit that gives an agent a crypto wallet and onchain actions, with CDP, Privy or Viem as wallet providers. Free to use. It does not enforce spend caps or destination allowlists, and the README warns that prompt injection can trigger transfers. Setup: card not stated, human once (create CDP Secret API key in portal).
 - [Coinbase CDP x402 Facilitator](https://docs.cdp.coinbase.com/x402/core-concepts/facilitator) - Hosted service that verifies and settles x402 stablecoin payments for sellers. Free monthly transaction allowance, then a per-transaction fee. Solana supports only the `exact` and `upto` schemes. Setup: card not stated, human once (create CDP API key in portal).
