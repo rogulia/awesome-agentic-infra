@@ -67,6 +67,7 @@ Browsers, search and scraping built for agents.
 - [Parallel](https://parallel.ai) - Web Search and Extract APIs returning ranked URLs and page excerpts. Free monthly requests. Live extraction takes 60-90 seconds against 1-3 seconds for cached pages. Setup: card not stated, human once (sign up, create API key).
 - [Steel](https://steel.dev) - Browser sessions API with a self-hostable open-source Steel Browser (Apache-2.0). Free plan with one-time credits. The stealth browser is Enterprise-only. Setup: no card, human once (sign up in dashboard).
 - [Tavily](https://www.tavily.com) - Search, extract and crawl API built for LLM applications. Free plan. Per-operation credit costs and rate limits are not published. Setup: no card, human once (sign up in dashboard).
+- [Vend](https://extract.paypercall.dev) - Pay-per-call web extraction, search, link check, domain and geoip APIs with an MCP server; an agent pays each call in Nano (XNO) with no account. Five free calls a day, then per-call pricing. Pays in XNO only, so the caller needs a Nano wallet; no automatic refunds. Setup: no card, no signup (source: https://github.com/dhyabi2/vend).
 
 ## Payments
 
