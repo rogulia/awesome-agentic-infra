@@ -36,8 +36,6 @@ A tool belongs here when it meets all of these:
 
 3. Run `pnpm install && pnpm typography:fix`, then open a pull request. The template has the checklist; the CI checks format, order, typography and links.
 
-No time for a pull request? [Suggest a tool](https://github.com/rogulia/awesome-agentic-infra/issues/new?template=suggest-a-tool.md) with an issue instead.
-
 Pull requests that skip the checklist are closed.
 
 ## Identity and Communication

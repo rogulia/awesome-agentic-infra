@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Add a tool
+    url: https://github.com/rogulia/awesome-agentic-infra/blob/main/CONTRIBUTING.md
+    about: Tools are added by pull request only. Read CONTRIBUTING.md first.

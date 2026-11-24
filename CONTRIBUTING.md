@@ -49,6 +49,4 @@ Protocols are specifications, so the free-tier criterion does not apply. A proto
 - Add the entry at its alphabetical position in the category.
 - Run `pnpm install && pnpm typography:fix` before pushing. The `typography` check fails the pull request if quotes, dashes, ellipses or no-break spaces are not normalized by [polytypo](https://polytypo.dev) (`en-GB`).
 
-No time for a pull request? Open a [suggestion issue](https://github.com/rogulia/awesome-agentic-infra/issues/new?template=suggest-a-tool.md) instead.
-
 Fill in the checklist in the template. Maintainers may ask for evidence of use and close pull requests that do not meet the criteria without further discussion.
